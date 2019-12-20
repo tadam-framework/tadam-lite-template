@@ -1,10 +1,10 @@
 # tadam-lite-template
 
-A Leiningen template for FIXME.
-
 ## Usage
 
-FIXME
+```sh
+lein new tadam-lite myproject
+```
 
 ## License
 
