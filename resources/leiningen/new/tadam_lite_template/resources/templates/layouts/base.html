@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Check if a website is made with WordPress quickly.">
+        <meta property="og:title" content="Is it made in WordPress?">
+        <meta property="og:description" content="Check if a website is made with WordPress quickly.">
+        <meta property="og:image" content="https://is-wordpress.andros.dev/img/screenshot.png">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/main.css">
+        <script defer src="/js/axios.min.js"></script>
+        <script defer src="/js/vue.min.js"></script>
+        <script defer src="/js/main.js"></script>
+        <title>Is it made with WordPress?</title>
+    </head>
+    <body>
+        <div class="loading">
+            <img class="rotate" alt="loading" src="/img/radar.svg"/>
+        </div>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            <p>Web tool interface: <a href="https://github.com/tanrax/is-wordpress" target="_blank">is-wordpress</a> - Author: <a href="https://programadorwebvalencia.com" target="_blank">Andros Fenollosa</a></p>
+        </footer>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46470654-4"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'UA-46470654-4');
+        </script>
+    </body>
+</html>
