@@ -3,7 +3,6 @@
 ## Usage
 
 ```sh
-cp lein-env-example .lein-env
 lein run
 ```
 
