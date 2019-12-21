@@ -1,4 +1,6 @@
 # Tadam Lite Template
+ 	
+![Rabbit](resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg)
 
 ## Usage
 
