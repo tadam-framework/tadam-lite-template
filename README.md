@@ -1,9 +1,15 @@
-# tadam-lite-template
+# Tadam Lite Template
 
 ## Usage
 
 ```sh
 lein new tadam-lite myproject
+```
+
+Then opens the browser with the following address.
+
+```sh
+localhost:4000
 ```
 
 ## License
