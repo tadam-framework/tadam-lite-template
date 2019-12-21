@@ -1,23 +1,12 @@
 {% extends "layouts/base.html" %}
 
+{% block title %}
+Welcome to Tadam
+{% endblock %}
+
 {% block content %}
-<div id="app" class="container">
-    <section class="form">
-        <h1 class="form__title" >Is it made with&nbsp;<img alt="W" src="/img/wordpress.png">ordPress?</h1>
-        <form action="#" class="form__container">
-            <input v-model="domain" @keypress.enter="checkDomain" :disabled="state != 'stop'" class="form__input" name="domain" type="text" placeholder="http://domain.com">
-            <button @click="checkDomain" class="form__button" :class="{'form__button--close': state == 'yes' || state == 'no'}" type="button">
-                <img v-if="state == 'play'" class="form__button-img rotate" alt="Search" src="/img/radar.svg"> 
-                <img v-if="state == 'yes' || state == 'no'" class="form__button-img" alt="Search" src="/img/close.svg"> 
-                <img v-if="state == 'stop'" class="form__button-img" alt="Search" src="/img/search.svg"> 
-            </button>
-        </form>
-        <p v-if="state == 'yes'" class="response">
-            yes
-        </p>
-        <p v-if="state == 'no'" class="response">
-            no
-        </p>
-    </section>
-</div>
+<h1 class="title-welcome">Welcome to Tadam Framework {{ version }}</h1>
+<p class="logo-welcome">
+    <img class="logo-welcome" alt="rabbit" src="/img/rabbit.svg">
+</p>
 {% endblock %}

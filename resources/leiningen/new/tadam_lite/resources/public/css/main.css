@@ -1,161 +1,63 @@
-:root {
-    --font-lora: 'Lora', serif;
-    --font-montserrat: 'Montserrat', sans-serif;
-    --color-wordpress: #0073aa;
-    --color-white: #fff;
-    --color-red: #f03a47;
-    --color-green: #16db93;
-    --color-yellow: #eac435;
-    --color-egg: #f2e9dc;
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+    font-family: Raleway, arial;
+    margin: 0;
+    background: yellow;
+    height: 100vh;
+    margin-top: 8rem;
 }
-
-.loading {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3fa46a;
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
     right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-wordpress);
 }
-
-.loading img {
+header > a {
+    margin: 1rem;
+}
+header > a > img {
     height: 3rem;
 }
-
-body {
-    font-family: var(--font-montserrat);
-    background-color: var(--color-wordpress);
-    color: var(--color-white);
+header ul { 
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-lora);
+header ul a { 
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: initial;
 }
-
-
-
-a::-moz-focus-inner, button::-moz-focus-inner {
-    border: 0;
+header ul a:hover { 
+    background-color: white;
+    color: #3fa46a;
 }
-
-
-
-a {
-    text-decoration: none;
-    color: var(--color-yellow)
-}
-
 main {
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 800px;
+    margin: 3rem auto;
 }
 footer {
-    displaY: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 20vh;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.form__title {
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
-.form__title img {
-    width: 2rem;
-    height: 2rem;
-    object-fit: cover;
-}
-
-.form__container {
-    display: flex;
-}
-
-.form__input {
-    padding: .7rem;
-    font-size: 1.3rem;
-    border-radius: .3rem 0 0 .3rem;
-    border: 0;
-}
-
-.form__button {
-    border-radius: 0 .3rem .3rem 0;
-    border: 0;
-    padding: 0 1rem;
-    background-color: var(--color-yellow);
-    cursor: pointer;
-    transition: .2s;
-}
-
-.form__button--close {
-    background-color: red;
-    border: 2px solid var(--color-white);
-}
-
-.form__button:hover {
-    background-color: var(--color-egg);
-}
-
-.form__button img {
-    width: 2rem;
-    height: 2rem;
-}
-
-.response {
+.title-welcome {
     text-align: center;
-    font-size: 3rem;
-    text-transform: uppercase;
+    color: #3fa46a;
 }
 
-@keyframes aniRotate {
-    from {
-        transform: rotate(0deg);
-    } to {
-        transform: rotate(360deg);
-    }
+.logo-welcome {
+    text-align: center;
 }
 
-.rotate {
-    animation-name: aniRotate;
-    animation-timing-function: linear;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite; 
+.logo-welcome img {
+    width: 20rem;
+    margin: 4rem auto;
 }
-
-@media all and (max-width: 500px) {
-    .form__container {
-        flex-direction: column;
-        width: 90%;
-        margin: 0 auto;
-    }
-    .form__button img {
-        padding: .7rem 0
-    }
-
-    .form__input {
-        border-radius: .3rem .3rem 0 0;
-    }
-    .form__button {
-        border-radius: 0 0 .3rem .3rem;
-    }
-    footer p {
-        text-align: center;
-    }
-    .form__title {
-        font-size: 1.2rem;
-    }
-}
-
