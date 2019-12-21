@@ -2,17 +2,4 @@
   :domain "http://localhost:4000"
   :debug  true
   :port   4000
-  :db     {
-            :classname   "org.sqlite.JDBC"
-            :subprotocol "sqlite"
-            :subname     "db.sqlite"
-            }
-  :email  {
-            :host "localhost"
-            :user ""
-            :pass ""
-            :ssl  false
-            :port 1025
-            :from "Tadam Framework <no-reply@tadam-framework.dev>"
-            }
 }
