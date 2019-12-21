@@ -1,6 +1,6 @@
 # Tadam Lite Template
  	
-<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg" style="width: 40%; display: block; margin: 0 auto">
+<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg" width="40%">
 
 ## Usage
 
