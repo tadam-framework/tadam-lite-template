@@ -1,6 +1,6 @@
 # Tadam Lite Template
 
-Minimalist Web framework for Clojure, like Flask but functional.
+Minimalist Web framework with Clojure, like Flask but functional.
  	
 <img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg" width="40%">
 
