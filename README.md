@@ -1,13 +1,27 @@
 # Tadam Lite Template
 
-Minimalist Web framework with Clojure, like Flask but functional.
+Simple template to get started with Tadam Framework 
  	
 <img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg" width="40%">
 
-## Usage
+## Install
 
 ```sh
 lein new tadam-lite myproject
+```
+
+## Usage
+
+Enter to project folder
+
+```sh
+cd myproject
+```
+
+And run Leiningen
+
+```sh
+lein run
 ```
 
 Then opens the browser with the following address.
@@ -18,7 +32,7 @@ localhost:4000
 
 ## License
 
-Copyright © 2019 FIXME
+Copyright © 2020 FIXME
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
