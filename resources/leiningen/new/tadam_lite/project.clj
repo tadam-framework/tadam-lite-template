@@ -6,7 +6,7 @@
   :dependencies [;; Clojure
                  [org.clojure/clojure "1.10.1"]
                  ;; Tadam core
-                 [tadam "0.2.11"]
+                 [tadam "0.3.0"]
                  ;; Managing environment settings
                  [environ "1.1.0"]
                  ;; HTTP Server
