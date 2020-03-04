@@ -12,7 +12,7 @@
 (defn api
   ;; View JSON
   [req]
-    (render-JSON {:result true}))
+    (render-JSON req {:result true}))
 
 (defn page-404
   ;; View page 404
