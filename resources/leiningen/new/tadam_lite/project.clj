@@ -37,4 +37,5 @@
             "check-format"    ["cljfmt" "check"]}
   ;; LEIN
   :main ^:skip-aot {{name}}.core
+  :aot  [{{name}}.core]
   :repl-options {:init-ns {{name}}.core})
