@@ -17,7 +17,7 @@
       wrap-session
       (wrap-cors 
       	:access-control-allow-origin [#".*"]
-      	:access-control-allow-methods #{:get})
+      	:access-control-allow-methods [:get])
       (#(if (env :debug) (wrap-reload %)))))
 
 (defn -main [& args]
