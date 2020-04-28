@@ -10,7 +10,7 @@
                  ;; Managing environment settings
                  [environ "1.1.0"]
                  ;; HTTP Server
-                 [ring "1.7.1"]
+                 [ring "1.8.0"]
                  ;; Ring middleware that prevents CSRF attacks
                  [ring/ring-defaults "0.3.2"]
                  [ring/ring-anti-forgery "1.3.0"]
