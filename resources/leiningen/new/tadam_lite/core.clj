@@ -13,11 +13,10 @@
   ;; Handler middlewares
   (-> all-routes
       (wrap-defaults (assoc-in site-defaults [:security :anti-forgery] true))
-      wrap-reload
       (wrap-cors 
       	:access-control-allow-origin [#".*"]
       	:access-control-allow-methods [:get])
-      (#(if (env :debug) (wrap-reload %)))))
+      (#(if (env :debug) (wrap-reload %) %))))
 
 (defn -main [& args]
   ;; Main
