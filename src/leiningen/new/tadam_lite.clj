@@ -13,11 +13,11 @@
     (->files data
              ["README.md" (render "README.md" data)]
              ["project.clj" (render "project.clj" data)]
+             ["config.yaml" (render "resources/config.yaml" data)]
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["src/{{sanitized}}/urls.clj" (render "urls.clj" data)]
              ["src/{{sanitized}}/config.clj" (render "config.clj" data)]
              ["src/{{sanitized}}/views/public.clj" (render "views/public.clj" data)]
-             ["resources/config.yaml" (render "config.yaml" data)]
              ["resources/public/css/main.css" (render "resources/public/css/main.css" data)]
              ["resources/public/js/main.js" (render "resources/public/js/main.js" data)]
              ["resources/public/img/rabbit.svg" (render "resources/public/img/rabbit.svg" data)]

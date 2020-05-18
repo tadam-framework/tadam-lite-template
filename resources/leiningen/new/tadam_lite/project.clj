@@ -32,11 +32,11 @@
             ;;; Generate documentation
             [lein-codox "0.10.7"]]
   ;; Map configuration for Ring
-  :ring {:handler {{name}} .core.wrapped-handler}
+  :ring {:handler {{name}}.core.wrapped-handler}
   ;; ALIAS
   :aliases {"check-idiomatic" ["kibit" "src"]
             "check-format"    ["cljfmt" "check"]}
   ;; LEIN
   :main ^:skip-aot {{name}}.core
   :aot  [{{name}}.core]
-  :repl-options {:init-ns {{name}} .core})
+  :repl-options {:init-ns {{name}}.core})
