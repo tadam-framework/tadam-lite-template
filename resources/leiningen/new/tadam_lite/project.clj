@@ -7,8 +7,6 @@
                  [org.clojure/clojure "1.10.1"]
                  ;; Tadam core
                  [tadam-core "0.3.2"]
-                 ;; Managing environment settings
-                 [environ "1.1.0"]
                  ;; HTTP Server
                  [ring "1.8.0"]
                  ;; Ring middleware that prevents CSRF attacks
@@ -16,16 +14,17 @@
                  [ring/ring-anti-forgery "1.3.0"]
                  ;; Routing
                  [compojure "1.6.1"]
-                  ;; Cors
+                 ;; Cors
                  [ring-cors "0.1.13"]
                  ;; Templates
                  [selmer "1.12.12"]
                  ;; Validations
                  [jkkramer/verily "0.6.0"]
+                 ;; Yaml
+                 [clj-yaml "0.4.0"]
                  ;; JSON encoding
                  [cheshire "5.9.0"]]
   :plugins [;; DEV TOOLS
-            [lein-environ "1.1.0" :hooks false]
             ;;; Check idiomatic bug
             [lein-kibit "0.1.7"]
             ;;; Check format
@@ -33,11 +32,11 @@
             ;;; Generate documentation
             [lein-codox "0.10.7"]]
   ;; Map configuration for Ring
-  :ring {:handler {{name}}.core.wrapped-handler}
+  :ring {:handler {{name}} .core.wrapped-handler}
   ;; ALIAS
   :aliases {"check-idiomatic" ["kibit" "src"]
             "check-format"    ["cljfmt" "check"]}
   ;; LEIN
   :main ^:skip-aot {{name}}.core
   :aot  [{{name}}.core]
-  :repl-options {:init-ns {{name}}.core})
+  :repl-options {:init-ns {{name}} .core})
