@@ -2,7 +2,9 @@
 
 Simple template to get started with Tadam Framework 
  	
-<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/tadam.svg" width="40%">
+<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/tadam.svg" width="30%">
+
+## [Full Docs](https://www.tadam-framework.dev/)
 
 ## Install
 
@@ -27,7 +29,7 @@ lein run
 Then opens the browser with the following address.
 
 ```sh
-localhost:4000
+localhost:7404
 ```
 
 ## License
