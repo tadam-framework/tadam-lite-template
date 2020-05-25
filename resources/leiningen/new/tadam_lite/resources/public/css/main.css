@@ -2,7 +2,7 @@
 body {
     font-family: Raleway, arial;
     margin: 0;
-    background: yellow;
+    background: #09f;
     height: 100vh;
     margin-top: 8rem;
 }
@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3fa46a;
+    background-color: #63aa32;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ header ul a {
 }
 header ul a:hover { 
     background-color: white;
-    color: #3fa46a;
+    color: #63aa32;
 }
 main {
     max-width: 800px;
@@ -50,7 +50,7 @@ footer {
 
 .title-welcome {
     text-align: center;
-    color: #3fa46a;
+    color: #63aa32;
 }
 
 .logo-welcome {
