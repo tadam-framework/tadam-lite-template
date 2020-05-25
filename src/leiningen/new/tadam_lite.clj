@@ -20,7 +20,7 @@
              ["src/{{sanitized}}/views/public.clj" (render "views/public.clj" data)]
              ["resources/public/css/main.css" (render "resources/public/css/main.css" data)]
              ["resources/public/js/main.js" (render "resources/public/js/main.js" data)]
-             ["resources/public/img/rabbit.svg" (render "resources/public/img/rabbit.svg" data)]
+             ["resources/public/img/rabbit.svg" (render "resources/public/img/tadam.svg" data)]
              ["resources/templates/layouts/base.html" (render "resources/templates/layouts/base.html" data)]
              ["resources/templates/public/welcome.html" (render "resources/templates/public/welcome.html" data)]
              ["resources/templates/public/404.html" (render "resources/templates/public/404.html" data)])))
