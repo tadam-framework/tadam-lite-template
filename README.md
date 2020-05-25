@@ -2,7 +2,7 @@
 
 Simple template to get started with Tadam Framework 
  	
-<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/rabbit.svg" width="40%">
+<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/tadam.svg" width="40%">
 
 ## Install
 
