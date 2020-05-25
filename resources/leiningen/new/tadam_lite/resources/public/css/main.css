@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #63aa32;
+    background-color: #6c3;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ header ul a {
 }
 header ul a:hover { 
     background-color: white;
-    color: #63aa32;
+    color: #6c3;
 }
 main {
     max-width: 800px;
@@ -50,7 +50,7 @@ footer {
 
 .title-welcome {
     text-align: center;
-    color: #63aa32;
+    color: #6c3;
 }
 
 .logo-welcome {
