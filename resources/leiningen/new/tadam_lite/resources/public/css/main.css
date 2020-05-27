@@ -3,7 +3,7 @@ body {
     font-family: Raleway, arial;
     margin: 0;
     background: #09f;
-    height: 100vh;
+    height: calc(100vh - 8rem);
     margin-top: 8rem;
 }
 header {
@@ -22,21 +22,21 @@ header > a {
 header > a > img {
     height: 3rem;
 }
-header ul { 
+header ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-header ul a { 
+header ul a {
     display: block;
     margin: 1rem;
     padding: 1rem;
     color: white;
     text-decoration: initial;
 }
-header ul a:hover { 
+header ul a:hover {
     background-color: white;
     color: #6c3;
 }
