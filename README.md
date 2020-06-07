@@ -1,8 +1,15 @@
-# Tadam Lite Template
+<p align="center">
+  <img width="200" src="https://raw.githubusercontent.com/tadam-framework/tadam-website/master/img/tadam-logo.svg">
+</p>
+<h1 align="center">Tadam Framework</h1>
+<h2 align="center">Lite Template</h2>
+<p align="center">
+  https://www.tadam-framework.dev/
+</p>
 
-Simple template to get started with Tadam Framework 
- 	
-<img alt="Rabbit" src="resources/leiningen/new/tadam_lite/resources/public/img/tadam.svg" width="30%">
+## Contribute
+
+To contribute or edit you must modify the markdown files that you will find in the markdown folder.
 
 ## [Full Docs](https://www.tadam-framework.dev/)
 
